@@ -1,0 +1,30 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: -webkit-xxx-large;
+    text-decoration: underline;
+    
+}
+h2 {
+    text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+
+div {
+    column-count: 3;
+    text-align: justify;
+    column-gap: 20px;
+}
+p {
+    margin-top: 2px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 16px;
+    margin-right: 16px;
+    background-color: #d3d3d3e8;
+}
+

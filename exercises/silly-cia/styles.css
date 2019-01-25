@@ -1,0 +1,30 @@
+h1 {
+    color: darkgreen;
+}
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+}
+div.para {
+    line-height: 25px;
+}
+.link {
+   text-decoration: none;
+   margin-right: 50px;
+}
+.link:hover {
+    text-decoration: underline
+}
+div.para2 {
+    text-transform: uppercase;
+}
+img {
+    float: left;
+    height: auto;
+    width: auto;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+.bullets {
+    margin-left: 350px;
+}
