@@ -3,6 +3,7 @@ h1 {
     text-align: center;
     font-size: -webkit-xxx-large;
     text-decoration: underline;
+    border-bottom: 3px double;
     
 }
 h2 {
@@ -21,10 +22,26 @@ p {
     margin-top: 2px;
 }
 
+img {
+    height: 190px;
+}
+.imagetext {
+    font-style: italic;
+    text-align: justify;
+    font-size: small;
+}
+
+.authortag {
+    font-size: small;
+    margin-top: 0px;
+}
+.finishpara {
+    margin-bottom: 4px;
+}
+
 body {
     font-family: 'Times New Roman', Times, serif;
     margin-left: 16px;
     margin-right: 16px;
     background-color: #d3d3d3e8;
 }
-

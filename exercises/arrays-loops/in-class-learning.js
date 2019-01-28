@@ -1,3 +1,6 @@
+//IN CLASS LEARNING:
+
+
 // for(var i = 0; i <= 5; i++ ){
 // console.log("hello")
 // }
@@ -15,12 +18,13 @@
 //     console.log(jessieJ[i])
 // }
 
-for(var i = 0; i < 101; i ++){
-    if (i % 2){
-        console.log(i + " is odd")
-    }
-        else {
-            console.log(i + " is even")
-        }
+// for(var i = 0; i < 101; i ++){
+//     if (i % 2){
+//         console.log(i + " is odd")
+//     }
+//         else {
+//             console.log(i + " is even")
+//         }
 
-}
+// }
+
