@@ -1,0 +1,128 @@
+*{
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.header {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    text-align: center;
+    font-size: 30px;
+    color: #E52521;
+}
+body {
+    background-color: #049CD8;
+}
+
+#baddies{
+    position: relative;
+    height: 55vh;
+    width: 70vw;
+    margin: auto;
+}
+#goo5{
+    position: absolute;
+    left: 6%;
+    font-size: 150%;
+}
+#goomCal {
+    position: absolute;
+    left: 5%;
+    bottom: 0%;
+    background-color: #E52521;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10%
+}
+
+#goompic{
+    width: 25%;
+    height: auto;
+    position: absolute;
+    left: 2%;
+    top: 10%; 
+}
+
+#bob7 {
+    left: 40%;
+    position: absolute;
+    font-size: 150%;
+}
+
+#bobCal {
+    position: absolute;
+    left: 40%;
+    bottom: 0%;
+    background-color: #E52521;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10%
+}
+
+#bobpic {
+    width: 22%;
+    height: auto;
+    position: absolute;
+    left: 38%;
+    top: 8%;
+}
+#cheep11 {
+    position: absolute;
+    left: 72%;
+    font-size: 150%;
+}
+#cheepCal {
+    position: absolute;
+    left: 75%;
+    bottom: 0%;
+    background-color: #E52521;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10%
+}
+
+#cheeppic {
+    position: absolute;
+    width: 30%;
+    height: auto;
+    left: 70%;
+    top: 5%;
+}
+#points {
+    position: relative;
+    height: 20vh;
+    width: 70vh;
+    margin: auto;
+}
+#coin {
+    position: absolute;
+    width: 18%;
+    left: 37%;
+    height: auto;
+    padding: 2px;
+}
+
+#total {
+    position: absolute;
+    bottom: 2%;
+    left: 25%;
+    font-size: 30px;
+
+}
+.footer {
+    text-align: center;
+}
+p {
+    margin: 0px;
+}
+#coinDisplay {
+    color: #FBD000;
+}
+

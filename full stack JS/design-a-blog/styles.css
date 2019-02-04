@@ -1,0 +1,44 @@
+.navbar {
+    top: 0px;
+    position: fixed;
+    width: 98.5%;
+    border-style: solid;
+    border-color: aqua;
+    background-color: beige;
+    margin: auto;
+    float: left;
+}
+.navBox {
+    position: relative;
+    float: right;
+    border-style: dashed;
+    border-color: blue;
+    margin: auto;
+}
+.blogPost {
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: justify;
+}
+h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+p {
+    margin-top: 2px;
+    margin-bottom: 70px;
+}
+h6 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.myImage{
+    max-width: 200px;
+    height: auto;
+    float: right;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+
+

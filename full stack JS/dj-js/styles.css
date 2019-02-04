@@ -1,0 +1,16 @@
+.red-box {
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    margin-left: 15%;
+    display: inline-block; 
+}
+
+
+.purplebox {
+    height: 400px;
+    width: 400px;
+    background-color: purple;
+    display: inline-block;
+
+}

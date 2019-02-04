@@ -1,0 +1,362 @@
+body {
+    background-color: rgb(201, 201, 201);
+}
+
+div {
+    position: relative;
+    height: 300px;
+    width: 550px;
+    display: inline-block;
+
+}
+
+/* FRANCE */
+.France {
+    position: relative;
+}
+
+.France1 {
+    position: absolute;
+    background-color: red;
+    width: 550px;
+}
+
+.France2 {
+    position: absolute;
+    background-color: white;
+    width: 366px;
+}
+
+.France3 {
+    position: absolute;
+    background-color: blue;
+    width: 182px;
+}
+
+/* DEUTSCHLAND!!! */
+.Germany {
+    position: relative;
+}
+
+.Germany1 {
+    position: absolute;
+    height: 300px;
+    background-color: rgba(255, 204, 0);
+}
+.Germany2 {
+    position: absolute;
+    height: 200px;
+    background-color: red;
+}
+.Germany3 {
+    position: absolute;
+    height: 100px;
+    background-color: black;
+}
+
+/* MADAGASCAR */
+.Madagasgar {
+    position: relative;
+}
+
+.Mada1 {
+    position: absolute;
+    width: 550px;
+    height: 300px;
+    background-color: green;
+}
+
+.Mada2 {
+    position: absolute;
+    width: 550px;
+    height: 150px;
+    background-color: red;
+}
+
+.Mada3 {
+    position: absolute;
+    width: 183px;
+    height: 300px;
+    background-color: white;
+}
+
+/* Switzerland :) */
+.Swiss {
+    position: relative;
+    height: 300px;
+    width: 550px;
+    background-color: red;
+}
+
+.SwissVertBox {
+    position: absolute;
+    width:70px;
+    height:220px;
+    background-color: white;
+    top: 35px;
+    left: 228px;
+}
+.SwissHoriBox {
+    position: absolute;
+    width: 220px;
+    height: 70px;
+    background-color: white;
+    top: 110px;
+    left: 150px;
+}
+
+.Sweeden {
+    position: relative;
+    width: 550px;
+    height: 300px;
+    background-color: #005f9d;
+}
+
+.SweedeVertBox {
+    position: absolute;
+    width:70px;
+    height:300px;
+    background-color: #FEC508;
+    left: 130px;
+}
+
+.SweedeHoriBox {
+    position: absolute;
+    width: 550px;
+    height: 70px;
+    background-color: #FEC508;
+    top: 113px;
+}
+
+.Gambia {
+    position: relative;
+    width: 550px;
+    height: 300px;
+    background-color: white;
+    
+}
+
+.gamred {
+    position: absolute;
+    height: 100px;
+    background-color: #C71122;
+}
+
+.gamblue {
+    position: absolute;
+    width: 550px;
+    top: 115px;
+    height: 70px;
+    background-color: #0E1B81;
+}
+
+.gamgreen {
+    position: absolute;
+    width: 550px;
+    top: 200px;
+    height: 100px;
+    background-color: #336C24;
+}
+
+.Tonga {
+    position: relative;
+    background-color: #B90003;
+}
+
+.tongwhite {
+    position: absolute;
+    background-color: white;
+    height: 150px;
+    width: 220px;
+}
+
+.tongvertred {
+    position: absolute;
+    background-color: #B90003;
+    height: 120px;
+    width: 45px;
+    top: 15px;
+    left: 88px;
+}
+
+.tonghorired {
+    position: absolute;
+    background-color: #B90003;
+    height: 45px;
+    width: 120px;
+    top: 53px;
+    left: 50px;
+}
+
+.Japan {
+    position: relative;
+    background-color: white;
+    height: 300px;
+    width: 550px;
+}
+
+.japancircle {
+    position: absolute;
+    border-radius: 50%;
+    height: 59%;
+    width: 32%;
+    background-color: #B40028;
+    top: 19%;
+    left: 32%;
+}
+
+.Greece {
+    position: relative;
+    background-color: white;
+    height: 300px;
+    width: 550px;
+}
+
+.ghorshort1 {
+    position: absolute;
+    height: 33.3px;
+    width: 366px;
+    background-color: #0E54A6;
+    top: 0px;
+    right: 0px;
+}
+.ghorshort2 {
+    position: absolute;
+    height: 33.3px;
+    width: 366px;
+    background-color: #0E54A6;
+    top: 66.6px;
+    right: 0px;
+}
+.ghorshort3 {
+    position: absolute;
+    height: 33.3px;
+    width: 366px;
+    background-color: #0E54A6;
+    top: 133.2px;
+    right: 0px;
+}
+
+.ghorlong1 {
+    position: absolute;
+    height: 33.3px;
+    width: 550px;
+    background-color: #0E54A6;
+    top: 199.8px;
+    right: 0px;
+}
+
+.ghorlong2 {
+    position: absolute;
+    height: 33.3px;
+    width: 550px;
+    background-color: #0E54A6;
+    top: 266.4px;
+    right: 0px;
+}
+
+.gbox1 {
+    position: absolute;
+    height: 66.6px;
+    width: 70px;
+    background-color: #0E54A6;
+    top: 0px;
+    left: 0px;
+}
+.gbox2 {
+    position: absolute;
+    height: 66.6px;
+    width: 70px;
+    background-color: #0E54A6;
+    top: 0px;
+    left: 114px;
+}
+.gbox3 {
+    position: absolute;
+    height: 66.6px;
+    width: 70px;
+    background-color: #0E54A6;
+    top: 99px;
+    left: 0px;
+}
+.gbox4 {
+    position: absolute;
+    height: 66.6px;
+    width: 70px;
+    background-color: #0E54A6;
+    top: 99px;
+    left: 114px;
+}
+
+.Niger {
+    position: relative;
+    background-color: white;
+    height: 300px;
+    width: 550px;
+}
+
+.norange {
+    position: absolute;
+    background-color: #DC480B;
+    height: 100px;
+    width: 550px;
+}
+
+.ngreen {
+    position: absolute;
+    background-color: #10A626;
+    top: 200px;
+    height: 100px;
+    width: 550px;
+}
+
+.norangecir {
+    position: absolute;
+    background-color: #DC480B;
+    border-radius: 50%;
+    height: 31%;
+    width: 17%;
+    top: 34.4%;
+    left: 39%;
+}
+
+.Maldives {
+    position: relative;
+    background-color: #CC0F2E;
+    height: 300px;
+    width: 550px;
+}
+
+.malgreensq {
+    position: absolute;
+    background-color: #037333;
+    height: 160px;
+    width: 370px;
+    top: 70px;
+    left: 90px;
+}
+
+.malwhitecir {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 35%;
+    width: 19%;
+    top: 32.4%;
+    left: 40%;
+}
+.malgreencir {
+    position: absolute;
+    background-color: #037333;
+    border-radius: 50%;
+    height: 35%;
+    width: 19%;
+    top: 32.4%;
+    left: 40%;
+}
+
+
+
+
+
+
