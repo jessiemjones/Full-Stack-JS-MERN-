@@ -4,3 +4,5 @@ function total (){
 }
 document.totalcoins.addEventListener("input", total);
 
+// That one line is doing a ton! Good Work. Start practicing making your code as readable as possilbe
+// One liners are fun, but hard to debug
