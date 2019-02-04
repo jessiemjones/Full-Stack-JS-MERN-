@@ -28,6 +28,7 @@ body {
     left: 5%;
     bottom: 0%;
     background-color: #E52521;
+    /* red makes the text hard to read */
     border: none;
     color: white;
     padding: 7px 20px;
