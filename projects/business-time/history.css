@@ -1,0 +1,49 @@
+a:link, a:visited {
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+/* body {
+    background-image: url(https://www.stgeorgeutah.com/wp-content/uploads/2018/08/Canyoneering-John-Winder-1913-St-George-News.jpg);
+    background-size: 140%;
+    background-repeat: no-repeat;
+} */
+
+body {
+    position: relative;
+    background-color: blanchedalmond; 
+}
+
+
+a:link, a:visited {
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+body {
+    position: relative;
+}
+
+
+a {
+    /* position: absolute; */
+}
+
+
+h1 {
+    float: right;
+    display: block;
+    right: 25%;
+    color: rgb(119, 1, 1);
+}
+p {
+    clear: both;
+    display: block;
+    margin-top: 5px;
+    
+}
+
+h2 {
+    margin-bottom: 0px;
+    color: rgb(1, 1, 117);
+}
