@@ -1,0 +1,72 @@
+{
+    "appies": [
+        {
+            "name": "Cheese sticks",
+            "price": 3.50,
+            "calories": 500
+        },
+        {
+            "name": "Chips n Salsa",
+            "price": 3,
+            "calories": 400
+        },
+        {
+            "name": "Salad",
+            "price": 2.50,
+            "calories": 200
+        }
+    ],
+    "Cold sandwiches":[
+        {
+            "name": "BLT",
+            "price": 8,
+            "calories": 750,
+            "options": ["provolone", "swiss", "pepperjack"]
+        },
+        {
+            "name": "Vegitarian Delight",
+            "price": 6.50,
+            "calories": 500,
+            "cheese options":["provolone", "swiss", "pepperjack"],
+            "veggie options":["red pepper", "bell pepper", "tomatoes..."]
+        }
+    ],
+    "Hot Sandwiches": [
+        {
+            "name": "Philly",
+            "price": 10,
+            "calories": 1200,
+            "options":["onions", "peppers", "low salt"]
+        },
+        {
+            "name": "Meatball",
+            "price": 9.50,
+            "calories": 1300
+        }
+    ],
+    "Dessert": [
+        {
+            "name": "apple pie",
+            "calories": 400,
+            "price": 4,
+            "options":["vanilla ice cream", "whipped cream"]
+        },
+        {
+            "name": "Chocolate Fudge Brownie",
+            "calories": 500,
+            "price": 4
+        }
+    ],
+    "Drinks": [
+        {
+            "name": "Craft Beer",
+            "calories": 200,
+            "price": 5
+        },
+        {
+            "name": "Soda",
+            "calories":300,
+            "price": 200
+        }
+    ]
+}

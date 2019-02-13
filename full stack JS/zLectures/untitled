@@ -1,0 +1,20 @@
+Hyper-Text Transfer Protocol (Secure)
+The rules for sending and receiving data on the internet.
+
+url ip address has 4 sets of numbers separated by 3 periods
+ie: 12.48.110.0   it will be between 0 and 250
+
+Server is like the front desk person. just listening for the request
+API is like a pharmasist.  It knows what you need and the rules for getting it
+DATABASE is the like the shelves that hold all the medications
+
+Client request to server, server takes request to API, API takes the data from the DATABASE and gives it to the server who gives it to the client.
+
+HTTP REQUESTS:
+
+Basic CRUD (Create, Read, Update, Delete):
+
+get - read
+Post - create
+Put - update (always need to use an id)
+delete - delete. (DONT DELETE WITHOUT AN ID.  Dont wanna delete everythign)

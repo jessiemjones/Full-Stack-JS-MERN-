@@ -61,7 +61,7 @@ body {
     display: none;
 }
 
-@media (max-width: 638){
+/* @media (max-width: 638){
 .show {
   border: 5px solid #780001;
   display: flex;
@@ -71,7 +71,7 @@ body {
   width: 99%;
   display: inline-block;
 }
-}
+} */
 
 @media (min-width: 638){
   .show {

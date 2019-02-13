@@ -23,3 +23,15 @@ var veronicasCar = new Car("white", 6)
 
 console.log(myCar)
 console.log(veronicasCar)
+
+
+
+
+
+// to add a function onto a constructor :
+Person.prototype.speak = function(){
+    console.log(this.name)
+}
+var john = new Person("jonny boi");
+
+john.speak();
