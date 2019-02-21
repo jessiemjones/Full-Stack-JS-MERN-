@@ -8,7 +8,7 @@
 //     var person = addPerson()
 //     document.getElementById('normal').innerHTML = `<h1>Normal: ${person.fName} ${person.lName}</h1>`
 //  })
- 
+
 //  function addPerson (){
 //     var form = document.storage;
 //     var newPerson = {
@@ -19,3 +19,6 @@
 //     form.lname.value = '';
 //     return newPerson
 //  }
+
+
+

@@ -1,0 +1,17 @@
+.Navbar {
+    border: solid;
+    display: grid;
+    color: red;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.list{
+    color:black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(173, 173, 173);
+    border: solid;
+    grid-gap: 5px;
+}

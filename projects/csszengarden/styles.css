@@ -1,0 +1,255 @@
+/* mobile first */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("http://www.csszengarden.com/214/bamboo.png")
+}
+
+@font-face {
+    font-family: zenGarden;
+    src: url("https://fonts.gstatic.com/s/juliussansone/v7/1Pt2g8TAX_SGgBGUi0tGOYEga5WOwnsXy6KHHg.woff2")
+}
+@font-face {
+    font-family: zenGarden2;
+    src: url("https://fonts.gstatic.com/s/librebaskerville/v5/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNZaxMaC82U.woff2")
+}
+@font-face {
+    font-family: zenGardenItalic;
+    src: url("https://fonts.gstatic.com/s/librebaskerville/v5/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcWxEQDO-Wyrs.woff2")
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    /* border: solid 1px; */
+}
+
+p,
+h3 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    font-family: zenGarden;
+}
+p{
+    font-family: zenGarden2;
+}
+
+.opac {
+    background-color: rgba(138, 188, 159, 0.5);
+    background-image: url("http://www.csszengarden.com/214/bamboo.png");
+    background-attachment: scroll, scroll, fixed;
+    background-size: auto, auto, cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+
+.top {}
+
+.header {
+    height: 100px;
+    background-image: url("http://www.csszengarden.com/214/huntington.jpg");
+    color: white;
+}
+
+.white {
+    background-color: #FFFFFF;
+    padding: 0px;
+}
+.demonstration{
+    /* height: 718px; */
+}
+
+.right {
+    background-color: rgb(178, 130, 223);
+}
+
+.social-container {
+    /* height: 200px; */
+    /* background-color: rgb(184, 184, 183); */
+    /* background-image: url("http://www.csszengarden.com/214/koi.jpg"); */
+    color: white;
+}
+.dave {
+    background-image: url("http://www.csszengarden.com/214/koi.jpg");
+}
+
+.disappear {
+    display: none;
+}
+
+.authors {
+    background-color: #E5EDE8;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #607476;
+}
+.authors div {
+    border-bottom: solid thin;
+    border-bottom-color: #d9e3dc;
+    padding: 20px;
+    text-align: center;
+}
+
+.links {
+    background-color: rgba(138, 188, 159, 0.5);
+    background-image: url("http://www.csszengarden.com/214/bamboo.png");
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #607476;
+}
+
+.links div {
+    border-bottom: solid thin;
+    padding: 20px;
+    border-bottom-color: #d9e3dc;
+    text-align: center;
+}
+.a::before{
+    content: "5";
+    font-family: "icomoon";
+}
+.b::before{
+    content: "3";
+    font-family: "icomoon";
+}
+.c::before{
+    content: "c";
+    font-family: "icomoon";
+}
+.d::before{
+    content: "a";
+    font-family: "icomoon";
+}
+.e::before{
+    content: "g";
+    font-family: "icomoon";
+}
+.bottom{
+    background-color: #164346;
+    padding: 2em 5%;
+    text-align: center;
+}
+a:visited{
+    color:  #164346;
+}
+.bottom a::before {
+    color: rgba(255, 255, 255, 0.301);
+    font-size: 36px;
+    margin: 0 0.2em;
+    line-height: 1; 
+    /* text-decoration: none;    */
+}
+
+/* anything in the media will override other css when its above 1130 */
+@media (min-width: 1130px) {
+    .grid {
+        grid-template-columns: 2fr 1fr;
+    }
+    .header{
+        height: 300px;
+    }
+
+    .left {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+    h3, p {
+        width: 70%
+    }
+
+    .right {
+        grid-column: 2/3;
+    }
+
+    .disappear {
+        display: grid;
+        background-color: #E5EDE8;
+    }
+
+    .authors {
+        grid-row: 2/3;
+    }
+
+    .links {
+        grid-row: 3/4;
+    }
+
+    .social-container {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+    .authors {
+        background-color: #E5EDE8;
+        display: grid;
+        grid-template-columns: 1fr;
+        color: #607476;
+        padding: 50px;
+    }
+    .authors div {
+        border-bottom: solid thin;
+        border-bottom-color: #d9e3dc;
+        padding: 20px;
+        margin: auto;
+    }
+    .links {
+        background-color: rgba(138, 188, 159, 0.5);
+        background-image: url("http://www.csszengarden.com/214/bamboo.png");
+        display: grid;
+        grid-template-columns: 1fr;
+        color: #607476;
+        padding: 50px;
+    }
+    
+    .links div {
+        border-bottom: solid thin;
+        padding: 20px;
+        border-bottom-color: #d9e3dc;
+        margin: auto;
+    }
+    .bottom {
+        background-color: #164346;
+        font-size: 100%;
+        padding: 3em 10%;
+    }
+    .a::before{
+        width: 76px;
+        height: 76px;
+    }
+    .b::before{
+        width: 76px;
+        height: 76px;
+    }
+    .c::before{
+        width: 76px;
+        height: 76px;
+    }
+    .d::before{
+        width: 76px;
+        height: 76px;
+    }
+    .e::before{
+        width: 76px;
+        height: 76px;
+    }
+    
+    a:visited{
+        color:  #164346;
+    }
+    .bottom a::before {
+        color: rgba(255, 255, 255, 0.301);
+        /* font-size: 36px; */
+        /* margin: 0 0.2em; */
+        /* line-height: 1;  */
+        /* text-decoration: none;    */
+    }
+}

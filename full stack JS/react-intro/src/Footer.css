@@ -1,0 +1,20 @@
+.Footer {
+    border: solid;
+    display: grid;
+    color: red;
+    /* grid-template-columns: repeat(4, 1fr); */
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(173, 173, 173);
+}
+
+.Footlist{
+    color:black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: repeat(4, 1fr); */
+    /* background-color: rgb(173, 173, 173); */
+    border: solid;
+    grid-gap: 5px;
+}
+
