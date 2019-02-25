@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  display: grid;
+}
+
+.header-wrapper{
+  display: grid;
+  border: solid;
+}
+
+.navbar {
+  border: solid thin;
+}
+
+.blogList{
+  display: grid;
+  border: solid;
+}
+
+.blogPost {
+  border: solid thin;
+}
+
+.footer {
+  display: grid;
+  border: solid;
+}
+

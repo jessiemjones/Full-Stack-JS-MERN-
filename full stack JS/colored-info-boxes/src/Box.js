@@ -4,7 +4,7 @@ const Box = (props) => {
     const styles = {
         backgroundColor: props.color,
         width: 200,
-        height: 200,
+        height: 200
     }
     
     

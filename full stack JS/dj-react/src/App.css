@@ -1,0 +1,15 @@
+.djgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 5px;
+    /* margin: auto; */
+    text-align: center;
+}
+
+.box {
+    height: 100px;
+    /* width: 1fr; */
+    border: solid thin darkmagenta;
+}
+

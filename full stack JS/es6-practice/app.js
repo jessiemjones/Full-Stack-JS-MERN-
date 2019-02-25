@@ -177,24 +177,24 @@
 // }
 // console.log(printString("Kat","Stark", 40))
 
-const animals = [
-    {
-        type: "dog",
-        name: "theodore"
-    },
-    {
-        type: "cat",
-        name: "whiskers"
-    },
-    {
-        type: "pig",
-        name: "piglette"
-    },
-    {
-        type: "dog",
-        name: "sparky"
-    }
- ];
+// const animals = [
+//     {
+//         type: "dog",
+//         name: "theodore"
+//     },
+//     {
+//         type: "cat",
+//         name: "whiskers"
+//     },
+//     {
+//         type: "pig",
+//         name: "piglette"
+//     },
+//     {
+//         type: "dog",
+//         name: "sparky"
+//     }
+//  ];
  
 //  function filterForDogs(arr) {
 //      return arr.filter(animal => {
@@ -221,10 +221,10 @@ const animals = [
 
 // I hope you enjoy your stay. Please ask the president of Hawaii if you need anything.
 
-const printString = (name, location) => {
-    return `Hi ${name}! \n\nWelcome to ${location}. \n\nI hope you enjoy your stay. Please ask the president of ${location} if you need anything.`
-}
-console.log(printString("Janice", "Hawaii"))
+// const printString = (name, location) => {
+//     return `Hi ${name}! \n\nWelcome to ${location}. \n\nI hope you enjoy your stay. Please ask the president of ${location} if you need anything.`
+// }
+// console.log(printString("Janice", "Hawaii"))
 
 // /// THIS IS DESTRUCTERING THE IMPORTING OF NPM PACKAGES!!  WE WILL USE THIS A SHITLOAD
 // import {question, keyInSelect} from "readline-sync";
@@ -232,3 +232,4 @@ console.log(printString("Janice", "Hawaii"))
 // question
 
 // keyInSelect
+
