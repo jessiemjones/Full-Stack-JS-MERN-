@@ -13,17 +13,19 @@ class Form extends Component {
             phone: '',
             favoriteFood: '',
             about: '',
+            colorSwitch1: true,
             namesArray: []
         }
     }
     
     handleSubmit = (e) => {
         e.preventDefault();
-        let {firstName, lastName, email, placeOfBirth, phone, favoriteFood, about} = this.state;
-        let personCard = {firstName, lastName, email, placeOfBirth, phone, favoriteFood, about}
+        let {firstName, lastName, email, placeOfBirth, phone, favoriteFood, about, colorSwitch1} = this.state;
+        let personCard = {firstName, lastName, email, placeOfBirth, phone, favoriteFood, about, colorSwitch1}
         this.setState((prevState)=>{
           return {
-            namesArray: [...prevState.namesArray, personCard]
+            namesArray: [...prevState.namesArray, personCard],
+            colorSwitch1: !prevState.colorSwitch1
           }
           
         })
@@ -48,7 +50,7 @@ class Form extends Component {
         })
     }  
     render(){
-        let newCard = this.state.namesArray.map((person, index) => <Card firstName={person.firstName} lastName={person.lastName} email={person.email} placeOfBirth={person.placeOfBirth} phone={person.phone} favoriteFood={person.favoriteFood} about={person.about} key={firstName + index}/>
+        let newCard = this.state.namesArray.map((person, index) => <Card firstName={person.firstName} lastName={person.lastName} email={person.email} placeOfBirth={person.placeOfBirth} phone={person.phone} favoriteFood={person.favoriteFood} about={person.about} switch={person.colorSwitch1} key={person.firstName + index}/>
         )
         const {firstName, lastName, email, placeOfBirth, phone, favoriteFood, about} = this.state;
         const isEnabled = firstName.length > 3 && lastName.length > 3 && email.length > 3 && placeOfBirth.length > 3 && phone.length > 3 && favoriteFood.length > 3 && about.length > 3;
