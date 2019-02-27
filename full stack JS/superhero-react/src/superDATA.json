@@ -1,0 +1,17 @@
+[{
+    "name": "Spiderman",
+    "image": "https://cdn2-www.comingsoon.net/assets/uploads/2017/06/spidey3.jpg",
+    "catchphrase": "nanananananananananana spidaman"
+}, {
+    "name": "Batman",
+    "image": "https://assets.heart.co.uk/2012/29/christian-bale-as-batman-1342550921-view-1.jpg",
+    "catchphrase": "I am batman"
+}, {
+    "name": "Chris Hemsworth",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/Chris_Hemsworth_as_Thor.jpg/220px-Chris_Hemsworth_as_Thor.jpg",
+    "catchphrase": ";)"
+}, {
+    "name": "Aquaman",
+    "image": "https://lh3.googleusercontent.com/7EmAkrVm67FTpZEuQexlfN2-sA6Fpsd7mchZQJjeAdpSsVACGQ0_dcjxlwOcAEt6sMfd7vnL0URAX-Ih584DVfY",
+    "catchphrase": "water stuff"
+}]

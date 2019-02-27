@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+}
+
+.form-wrapper {
+  border: solid;
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 10px;
+  grid-template-columns: 1fr 1fr;
+  display:grid;
+  padding: 20px;
+  padding-top: 10px;
+  grid-gap: 10px;
+  text-align: left;
+}
+button{
+  grid-column: 1/-1;
+  background-color: #c4c4c4;
+  border-radius: 5px;
+  margin: auto;
+  border: solid 1px;
+  border-color: black;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+
+}
+input {
+  border: solid thin;
+  border-radius: 3px;
+}
+
+.aboutBox {
+  border: solid thin;
+  height: 100px;
+  grid-column: 1/-1;
+  border-radius: 4px;
+}
+
+.Card-wrapper{
+  border: solid;
+  border-radius: 10px;
+  display: grid;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.badge {
+  background-color: #606060;
+  color: white;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.text{
+  grid-template-columns: 1fr 1fr;
+  display:grid;
+  padding-left: 20px;
+  grid-gap: 10px;
+  text-align: left;
+}
+
+.about{
+  grid-column: 1/-1;
+  border: solid thin;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  text-align: left;
+  height: 100px;
+  border-radius: 3px;
+}
