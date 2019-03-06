@@ -1,0 +1,16 @@
+.pages {
+    padding-top: 80px;
+    height: 100vh;
+}
+
+.submit-wrapper {
+    background-color: rgb(223, 215, 101);
+}
+
+.saved-wrapper {
+    background-color: rgb(231, 168, 97);
+}
+
+.listpage-wrapper {
+    background-color: rgb(247, 144, 144);
+}
