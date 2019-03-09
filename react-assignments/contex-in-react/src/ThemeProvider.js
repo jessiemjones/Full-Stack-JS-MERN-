@@ -33,4 +33,3 @@ export function withTheme (C){
                         {value => <C {...value}{...props} />}
                     </Consumer>
 }
-// export const {Consumer, Provider} = React.createContext()

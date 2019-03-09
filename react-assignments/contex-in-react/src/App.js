@@ -1,15 +1,14 @@
 import React from 'react';
-import {withTheme} from './ThemeProvider'
+import Header from './Header'
 import './App.css'
 
 
 const App = (props) => {
   return (
-    <div className={props.on ? "dark" : "light"}>
-      {props.title}
-      <button onClick={props.toggle}>{props.on ? "Switch to light" : "Switch to dark!"}</button>
+    <div >
+      <Header />
     </div>
   );
 };
 
-export default withTheme(App);
+export default App;

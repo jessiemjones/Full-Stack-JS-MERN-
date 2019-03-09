@@ -1,12 +1,21 @@
-import React from 'react';
-import './Pages.css'
+import React, { Component } from 'react';
+import Eventcard from './Eventcard';
+import {withEvents} from '../EventProvider';
+// import Form from '../Form'
 
-const Savedpage = () => {
-    return (
-        <div className="saved-wrapper pages">
-           Come with me if you want to live 
-        </div>
-    );
-};
+class SavedPage extends Component {
 
-export default Savedpage;
+    render() {
+        // console.log(this.props.savedEvents)
+        let {savedEvents} = this.props
+        let mappedEvents = savedEvents.map(event => <Eventcard key={event.EventId} event={event} button={<button className="saveButton" onClick={() => this.props.makeSaved(event.EventId)}>{event.isSaved ? 'Unsave' : 'Save'}</button>} />)
+
+        return (
+            <div className="saved-wrapper pages">
+                {mappedEvents}
+            </div>
+        );
+    }
+}
+
+export default withEvents(SavedPage);

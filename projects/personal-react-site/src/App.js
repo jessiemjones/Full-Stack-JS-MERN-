@@ -3,9 +3,8 @@ import Navbar from './nav-foot/Navbar';
 import Footer from './nav-foot/Footer';
 
 import Listpage from './pages/Listpage';
-import Savedpage from './pages/Savedpage';
+import SavedPage from './pages/Savedpage'
 import Submitpage from './pages/Submitpage';
-import './nav-foot/./Nav-foot.css';
 import './pages/./Pages.css'
 import './App.css'
 
@@ -17,7 +16,7 @@ const App = () => {
             <Navbar />
             <Switch>
                 <Route path="/listpage" component={Listpage} />
-                <Route path="/savedpage" component={Savedpage} />
+                <Route path="/savedpage" component={SavedPage} />
                 <Route path="/submitpage" component={Submitpage} />
             </Switch>
             <Footer />
@@ -26,3 +25,5 @@ const App = () => {
 };
 
 export default App;
+// (https://ep1.pinkbike.org/p0pb16938084/p0pb16938084.jpg);
+    

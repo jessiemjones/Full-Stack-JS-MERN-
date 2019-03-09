@@ -4,9 +4,9 @@ import {Link} from 'react-router-dom'
 const Navbar = () => {
     return (
         <div className="nav-wrapper">
-            <Link className="link" to="/listpage" >List Page</Link>
-            <Link className="link" to="/savedpage" >List Page</Link>
-            <Link className="link" to="/submitpage" >Submit Page</Link>
+            <Link className="link" to="/about" >ABOUT</Link>
+            <Link className="link" to="/listpage" >VIEW RACES</Link>
+            <Link className="link" to="/savedpage" >MY RACES</Link>
         </div>
     );
 };
