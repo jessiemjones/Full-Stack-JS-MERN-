@@ -4,7 +4,7 @@ import './Pages.css'
 const Submitpage = () => {
     return (
         <div className="submit-wrapper pages">
-            Hey.  I'm a sub
+            <h1>HI EVERYONE</h1>
         </div>
     );
 };

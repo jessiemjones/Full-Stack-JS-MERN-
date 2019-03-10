@@ -1,6 +1,7 @@
 .pages {
     padding-top: 80px;
     height: 100%;
+    padding-bottom: 40px;
 }
 
 body {
@@ -9,6 +10,7 @@ body {
     width: 100%;
     background-color: black;
     font-family: Arial, Verdana, sans-serif;
+
 }
 
 /* Navbar and Footer */
@@ -84,8 +86,6 @@ body {
     background-color: red;
 }
 
-
-
 /* pages and cards */
 
 .eventCard {
@@ -102,7 +102,7 @@ h1{
     margin-bottom: 5px;
 }
 .eventLink{
-    color: blue;
+    color: rgb(0, 0, 173);
     text-decoration: none;
     width: 150px;
 }
@@ -114,22 +114,32 @@ h1{
 .form-wrapper{
     margin: auto;
     text-align: center;
-    color: white
+    color: red;
+    background-color: white;
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    height: 60px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-bottom: 8px;
 }
 
-.pages{
+/* .pages{
 
-}
+} */
 .submit-wrapper {
-
+    color: white;
 }
-
+/* 
 .saved-wrapper {
 
 }
 .listpage-wrapper {
 
-}
+} */
 
 .saveButton {
     border: solid thin;
@@ -146,6 +156,8 @@ h1{
 .submitButton {
     margin: auto;
     margin-bottom: 10px;
+    border: solid thin;
+    border-radius: 5px;
 }
 .submitButton:hover{
     background-color: red;

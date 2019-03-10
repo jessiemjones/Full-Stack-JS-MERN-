@@ -15,12 +15,12 @@ class Form extends Component {
 
     render() {
         // console.log(this.props)
-        let {setNewValue, getEvents} = this.props
+        let {setNewValue} = this.props
         return (
             <div className="form-wrapper">
                 <p>Select a State: <SelectUSState className="stateSelector" onChange={setNewValue}/>
                 </p>
-                <button className="submitButton" onClick={getEvents}>Submit</button>
+                {/* <button className="submitButton" onClick={getEvents}>Submit</button> */}
             </div>    
         );
     }

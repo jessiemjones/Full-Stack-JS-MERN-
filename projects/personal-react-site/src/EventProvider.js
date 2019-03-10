@@ -16,6 +16,7 @@ class EventProvider extends Component {
         }
     }
 
+    /// use this to display the cards with matching state values
     setNewValue = newValue => {
         console.log('this is the State code:' + newValue);
         this.setState({
@@ -24,13 +25,17 @@ class EventProvider extends Component {
         console.log(this.state.selectedState)
     }
 
+   
     getEvents = async () => {
-        await axios.get(`https://vschool-cors.herokuapp.com?url=http://www.BikeReg.com/api/search/?states=${this.state.selectedState}/&eventtype=Off%20Road`).then(response => {
+        await axios.get(`https://vschool-cors.herokuapp.com?url=http://www.BikeReg.com/api/search/?eventtype=Off%20Road`).then(response => {
             this.setState({
                 events: response.data.MatchingEvents,
             })
         })
         this.makeMimicked(this.state.events)
+    }
+    componentDidMount(){
+        this.getEvents()
     }
     
     makeMimicked = (array) => {
@@ -42,7 +47,6 @@ class EventProvider extends Component {
            })
     }
     
-
     //This funciton takes the parameter
     //First if statement makes and then loops over a new array and checks if the event is "saved" or not.  If, false, then it marks it true.
     //Second if statement checks if the event is saved, and if so, it adds it to the "savedEvents" array that is stored in context (prevstate gets spread in aswell).

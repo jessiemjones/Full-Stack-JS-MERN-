@@ -19,14 +19,15 @@ class Eventcard extends Component {
     render() {
         // console.log(this.props.state)
         let {event} = this.props
+        let date = Date(event.EventDate.replace('/', '').replace('/',''))
         return (
             <div className="eventCard" name={event.EventId}>
                 <h1>{event.EventName}</h1>
                 {/* <p>{event.EventDate}</p> */}
                 <p>Location: {event.EventCity}, {event.EventState}</p>
                 <a className="eventLink" href={event.EventWebsite}>Link to event website</a>
+                <p>Date: {date}</p>
                 {this.props.button}
-                {/* <button className="saveButton" onClick={this.toggle}>Save</button> */}
                 
             </div>
         );
