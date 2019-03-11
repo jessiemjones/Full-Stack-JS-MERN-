@@ -16,7 +16,7 @@ class EventProvider extends Component {
         }
     }
 
-    /// use this to display the cards with matching state values
+    //US State dropdown menu.  Changes the value of selected state which is then used to display event cards from different states.
     setNewValue = newValue => {
         console.log('this is the State code:' + newValue);
         this.setState({
@@ -25,7 +25,7 @@ class EventProvider extends Component {
         console.log(this.state.selectedState)
     }
 
-   
+   //API call. 
     getEvents = async () => {
         await axios.get(`https://vschool-cors.herokuapp.com?url=http://www.BikeReg.com/api/search/?eventtype=Off%20Road`).then(response => {
             this.setState({
@@ -38,6 +38,7 @@ class EventProvider extends Component {
         this.getEvents()
     }
     
+    //Maps thru response data and adds a boolean value that is used to mark if it is saved or not.
     makeMimicked = (array) => {
            const updatedArray = array.map(event =>{
                      event.isSaved=false

@@ -5,7 +5,6 @@ import Footer from './nav-foot/Footer';
 import Listpage from './pages/Listpage';
 import SavedPage from './pages/Savedpage'
 import Submitpage from './pages/Submitpage';
-import './pages/./Pages.css'
 import './App.css'
 
 import {Switch, Route} from 'react-router-dom';
@@ -15,9 +14,9 @@ const App = () => {
         <div>
             <Navbar />
             <Switch>
-                <Route path="/listpage" component={Listpage} />
-                <Route path="/savedpage" component={SavedPage} />
-                <Route path="/submitpage" component={Submitpage} />
+                <Route exact path="/listpage" component={Listpage} />
+                <Route exact path="/savedpage" component={SavedPage} />
+                <Route exact path="/contact" component={Submitpage} />
             </Switch>
             <Footer />
         </div>
@@ -25,5 +24,4 @@ const App = () => {
 };
 
 export default App;
-// (https://ep1.pinkbike.org/p0pb16938084/p0pb16938084.jpg);
     

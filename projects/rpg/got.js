@@ -1,5 +1,4 @@
 var readline = require("readline-sync");
-var player = require('play-sound')(opts = {});
 
 //enemy creation
 function Enemy(name, health = 100){
@@ -33,7 +32,7 @@ if (start === true){
     console.log("If a girl has a name, then she has no place among the Faceless Men. *GAME OVER*")
 }else{
     console.log("Valar Dohaeris.  You are now among the Faceless Men.")
-    console.log("Your task is to kill everyone on your `little list`.  Each enemy you kill will give you a small small health and attack bonus.") 
+    console.log("Your task is to kill everyone on your `little list`.  Each enemy you kill will give you a small health and attack bonus.") 
     var isAlive = true;
 }
 

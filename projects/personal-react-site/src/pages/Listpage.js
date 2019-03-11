@@ -7,7 +7,7 @@ class Listpage extends Component {
  
     render() {
         // console.log(this.props)
-        console.log(this.props.mimickedEvents)
+        // console.log(this.props.mimickedEvents)
         // console.log(this.props.savedEvents)
         let {mimickedEvents, selectedState} = this.props
         let goodArray = mimickedEvents.filter(event => event.EventState === selectedState)

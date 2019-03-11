@@ -1,10 +1,13 @@
 import React from 'react';
-import './Pages.css'
 
 const Submitpage = () => {
     return (
-        <div className="submit-wrapper pages">
-            <h1>HI EVERYONE</h1>
+        <div className="about-wrapper pages">
+            <div className="about-box">
+                <h1>Want to include your race on our site?</h1>
+                <p>Email us at: </p>
+                <a className="eventLink" href="admin@mypersonalreactsite.com">admin@mypersonalreactsite</a>
+            </div>
         </div>
     );
 };
