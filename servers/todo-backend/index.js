@@ -42,7 +42,12 @@ app.put('/todos/:_id', (req, res)=> {
             todo = Object.assign(todo, updatedObject)
         }
     })
-    res.send('Item was updated')
+    const found = data.find(todo => todo._id === _id)
+    if (found){
+        res.send(found)
+    }else{
+        res.send("Could not find item at that ID")
+    }
 })
 
 app.listen(port, () =>{

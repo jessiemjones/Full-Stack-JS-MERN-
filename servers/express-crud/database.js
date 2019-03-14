@@ -1,18 +1,18 @@
 module.exports = [
         {
-            name: 'spagetti',
-            type: 'pasta',
-            sauce: 'red',
+            place: 'spagetti',
+            price: 60,
+            timeToGo: 'red',
             _id: '1'
         },{
-            name: 'fettuccine',
-            type: 'pasta',
-            sauce: 'alfredo',
+            place: 'fettuccine',
+            price: 60,
+            timeToGo: 'alfredo',
             _id:'2'
         },{
-            name: 'lasagna',
-            type: 'pasta',
-            sauce: 'marinara',
+            place: 'lasagna',
+            price: 60,
+            timeToGo: 'marinara',
             _id:'3'
         }
     
