@@ -7,20 +7,12 @@ const Vacation = require('./vacation')
 vacationRouter.route('/')
 
     .get((req, res)=>{
-        console.log("anything")
-        let {time, price} = req.query
-        if (time && price){
-            const costAndSeason = data.filter(spot => spot.timeToGo === time && spot.price < price)
-            res.send(costAndSeason)
-        }else if (time){
-            const season = data.filter(spot => spot.timeToGo === time)
-            res.send(season)
-        }else if(price){
-            const cost = data.filter(spot => spot.price === +price)
-            res.send(cost)
-        }else {
-            res.send(data)
-        }
+       Vacation.find((err, vacation) => {
+           if (err) {
+               return res.status(500).send(err)
+           }
+           return res.status(200).send(vacation)
+       })
     
     })
 

@@ -5,8 +5,8 @@ class Navbar extends Component {
     render() {
         return (
             <div className="Nav-wrapper">
-                <Link className="link" to="/firstpage">first page</Link>
-                <Link className="link" to="/secondpage">second page</Link>
+                <Link className="link" to="/firstpage">Bountie List</Link>
+                <Link className="link" to="/secondpage">Submit New Bountie</Link>
             </div>
         );
     }

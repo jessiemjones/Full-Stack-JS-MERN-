@@ -7,7 +7,9 @@ class BountieProvider extends Component {
         super()
 
         this.state={
-            bounties: []
+            bounties: [],
+            bounty: '', //might use.  idk yet
+            on: true  //maybue use.  idk
         }
     }
     getBounties = () => {
@@ -19,11 +21,44 @@ class BountieProvider extends Component {
         // console.log(this.bounties)
     }
 
+    postBounties = newBountie => {
+        axios.post('/bounties', newBountie).then(response =>{
+            console.log(response.data)
+            //set the state probs
+            this.setState(prevState=>({
+                bounties: [...prevState.bounties, response.data]
+            }))
+        })
+    }
+
+    deleteBounty = _id => {
+        axios.delete(`/bounties/:${_id}`).then(response =>{
+            this.setState(prevState =>({
+                bounties: prevState.bounties.filter(bountie => bountie._id !== _id)
+            }))
+            console.log(response.data)
+        })
+    }
+
+    editBounty = (_id, updatedBounty) => {
+        axios.put(`/bounties/:${_id}`, updatedBounty).then(response =>{
+            this.setState(prevState =>({
+                    bounties: prevState.bounties.map(bountie => bountie._id === _id ?
+                    bountie = updatedBounty
+                    :
+                    bountie)
+            }))
+        })
+    }
+
 
     render() {
         return (
             <Provider value={{
                 getBounties: this.getBounties,
+                postBounties: this.postBounties,
+                deleteBounty: this.deleteBounty,
+                editBounty: this.editBounty,
                 ...this.state
             }}>
                 {this.props.children}

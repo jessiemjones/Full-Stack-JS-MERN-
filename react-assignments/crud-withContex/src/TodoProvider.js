@@ -33,7 +33,10 @@ class TodoProvider extends Component {
     editTodo = (id, updatedTodo) => {
         axios.put(`https:api.vschool.io/jessie/todo/${id}`, updatedTodo).then(response =>{
             this.setState(prevState =>({
-                todos: prevState.todos.map(todo => todo._id === id? todo = updatedTodo : todo)
+                todos: prevState.todos.map(todo => todo._id === id? 
+                todo = updatedTodo 
+                : 
+                todo)
             }))
         })
     }

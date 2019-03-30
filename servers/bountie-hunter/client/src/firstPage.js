@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Bounties from './Bounties';
+import BountieCard from './BountieCard';
 
 class firstPage extends Component {
     render() {
         return (
             <div className="firstpage-wrapper">
-                <Bounties/>
+                <BountieCard/>
             </div>
         );
     }
