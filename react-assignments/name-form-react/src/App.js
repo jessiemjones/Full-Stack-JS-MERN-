@@ -53,7 +53,6 @@ class App extends Component {
           <h1>{this.state.firstName} {this.state.lastName}</h1>
           <button >Add name to list of BERNIE SANDERS SUPPORTERS</button>
         </form>
-
         <ul>
           {nameList}
         </ul>
